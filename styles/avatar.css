@@ -1,0 +1,35 @@
+.avatar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  padding: 32px 0;
+}
+
+.avatar-container img {
+  width: 128px;
+  height: 128px;
+
+  border: 2px solid #00FF00;
+  border-radius: 50%;
+
+  margin: auto;
+  margin-bottom: 30px;
+
+}
+
+.avatar-container p {
+  font-weight: 700;
+  font-size: 23px;
+
+
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.avatar-container p:last-child {
+  font-weight: 300;
+  font-size: 13px;
+}

@@ -1,0 +1,115 @@
+.project-container {
+  display: flex;
+  
+  gap: 40px;
+}
+
+.project-card {
+  width: 100%;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.project-card-header {
+  display: flex;
+
+  gap: 17px;
+  align-items: center;
+
+  margin-bottom: 22px;
+}
+
+.project-card-header h2{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.project-card-header img{
+  width: 20px;
+  height: 20px;
+}
+
+.project-card-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  margin-bottom: 47px;
+}
+
+.project-card-footer {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+}
+
+.project-card-badge {
+  display: flex;
+
+  gap: 8px;
+}
+
+.project-card-badge:last-child {
+  margin-left: auto;
+}
+
+.project-card-badge img{
+  width: 20px;
+  height: 20px;
+}
+
+.project-card-badge p{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.posts-container {
+  display: flex;
+  width: 100%;
+
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.posts-container img{
+  width: 128px;
+  height: 128px;
+  border-radius:50%;
+
+  margin-right: 20px;
+}
+
+.posts-content h1 {
+  font-weight: 700;
+  font-size: 18px;
+
+  margin-bottom: 4px;
+}
+
+.posts-create-date {
+  font-weight: 400;
+  font-size: 14px;
+
+  margin-bottom: 28px;
+}
+
+.posts-about {
+  font-weight: 400;
+  font-size: 16px;
+
+  margin-bottom: 11px;
+}
+
+.posts-category-wrapper {
+  display: flex;
+
+  gap: 10px;
+}
+
+.posts-category-wrapper p {
+  font-weight: 400;
+  font-size: 14px;
+}
